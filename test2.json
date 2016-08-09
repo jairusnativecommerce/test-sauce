@@ -1,0 +1,21 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "view-source:https://shopwidgetapp.com///"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "GTM"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
